@@ -1,6 +1,6 @@
 # AlkemyChallenge
 
-Resolución del reto propuesto por [Alkemy](https://www.alkemy.org) para ingresar a su curso de aceleración de Python Data-Analyst.<br>
+Resolución del reto propuesto por [Alkemy](https://www.alkemy.org) para ingresar a su curso de aceleración de Data Analytics + Python.<br>
 
 ## Índice:
 * [Enunciado del reto](https://github.com/Casvill/AlkemyChallenge/blob/main/Challenge%20Data%20Analytics%20con%20Python.pdf)  
