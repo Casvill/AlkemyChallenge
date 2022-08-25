@@ -1,6 +1,6 @@
 # AlkemyChallenge
 
-Resolución del reto propuesto por [Alkemy](https://www.alkemy.org) para ingresar a su curso de aceleración de Data Analytics + Python.<br>
+Resolución del reto propuesto por [Alkemy](https://www.alkemy.org) para ingresar a su curso de aceleración, Data Analytics + Python.  
 
 ## Índice:
 * [Enunciado del reto](https://github.com/Casvill/AlkemyChallenge/blob/main/Challenge%20Data%20Analytics%20con%20Python.pdf)  
@@ -27,14 +27,14 @@ Resolución del reto propuesto por [Alkemy](https://www.alkemy.org) para ingresa
 <br>[Índice](#Índice)<br><br> 
 
 ## Uso:  
-1-  Haciendo uso de una consola, dirígete a la ubicación donde se encuentra el archivo `docker-compose.yml`  
-2-  Ejecuta el siguiente comando `docker compose up`  
-3-  En un navegador web, abre el siguiente enlace [localhost:5050](http://127.0.0.1:5050)  
-4-  Ingresa la contraseña (por defecto es `admin`)  
-5-  La primera vez, tendrás que crear un nuevo servidor, haciendo click en "Add New Server", ponle el nombre que quieras, luego dirígete a la pestaña "Connection" 
+1.  Descarga el repo y, haciendo uso de una consola, dirígete a la ubicación donde se encuentra el archivo `docker-compose.yml` de este proyecto  
+2.  Ejecuta el siguiente comando `docker compose up -d`  
+3.  En un navegador web, abre el siguiente enlace [localhost:5050](http://127.0.0.1:5050)  
+4.  Ingresa la contraseña (por defecto es `admin`)  
+5.  La primera vez, tendrás que crear un nuevo servidor, haciendo click en "Add New Server", ponle el nombre que quieras, luego dirígete a la pestaña "Connection" 
 y en el campo "Host name/address" escribe `postgres`, en el campos Password escribe `postgresql`. Haz click en el botón "Save".  
-5-  Ya puedes ver la base de datos creada, que por defecto trae el nombre `BaseDeDatosAlkemyProject`  
-6-  En la carpeta del proyecto se creará una nueva carpeta llamada "sources", ahí se almacenarán el log de ejecución del programa y 3 carpetas con los archivos 
+5.  Ya puedes ver la base de datos creada, que por defecto trae el nombre `BaseDeDatosAlkemyProject`  
+6.  En la carpeta del proyecto se creará una nueva carpeta llamada "sources", ahí se almacenarán el log de ejecución del programa y 3 carpetas con los archivos 
 .csv jalados de la web [datos.gob.ar/](https://datos.gob.ar/)  
 <br>[Índice](#Índice)<br><br> 
 
