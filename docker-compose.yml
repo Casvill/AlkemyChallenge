@@ -1,0 +1,57 @@
+version: '3'
+
+services:
+  postgres:
+    container_name: postgres_container
+    image: postgres:14.3
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgresql}
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres/
+    hostname: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres
+    restart: unless-stopped
+
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4:6.8
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL:-pgadmin@pgadmin.org}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD:-admin}
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    volumes:
+      - pgadmin:/var/lib/pgadmin
+
+    ports:
+      - "${PGADMIN_PORT:-5050}:80"
+    depends_on:
+      - postgres
+    networks:
+      - postgres
+    restart: unless-stopped
+
+  alkemy-challenge:
+    container_name: alkemy-challenge_container
+    build: alkemy-challenge
+    image: alkemy-challenge:python
+    volumes:
+      - ./sources:/usr/src/app/Sources/
+    ports:
+      - "5000:5000"
+    networks:
+      - postgres
+    depends_on:
+      - postgres
+
+networks:
+  postgres:
+    driver: bridge
+
+volumes:
+  pgadmin:
+  postgres:

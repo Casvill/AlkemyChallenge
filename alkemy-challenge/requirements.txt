@@ -1,0 +1,7 @@
+pandas==1.4.1
+requests==2.27.1
+numpy==1.22.3
+psycopg2-binary==2.9.3
+SQLAlchemy==1.4.37
+SQLAlchemy-Utils==0.38.2
+python-decouple==3.6

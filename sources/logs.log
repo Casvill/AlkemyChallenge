@@ -1,0 +1,14 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 511527
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/ed0555f9-073a-42bf-9965-1d66108645c5/download/galerias-de-arte.csv HTTP/1.1" 200 None
+INFO:root:Proceso finalizado
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv HTTP/1.1" 200 96427
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): datos.cultura.gob.ar:443
+DEBUG:urllib3.connectionpool:https://datos.cultura.gob.ar:443 "GET /dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/ed0555f9-073a-42bf-9965-1d66108645c5/download/galerias-de-arte.csv HTTP/1.1" 200 73421
+INFO:root:Proceso finalizado
