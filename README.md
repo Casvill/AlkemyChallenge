@@ -39,6 +39,6 @@ y en el campo "Host name/address" escribe `postgres`, en el campos Password escr
 <br>[Índice](#Índice)<br><br> 
 
 ## Modificando variables de entorno  
-Para modificar las variables de entorno que trae el proyecto por defecto, dirígete a l carpeta "alkemy-challenge" y modifica las variables del archivo `.env`
+Para modificar las variables de entorno que trae el proyecto por defecto, dirígete a la carpeta "alkemy-challenge" y modifica las variables del archivo `.env`
 como más te convenga.  
 <br>[Índice](#Índice)<br><br> 
